@@ -1,0 +1,137 @@
+.syntax--js {
+
+  &.syntax--firebug {
+    color: @red;
+  }
+
+  &.syntax--keyword {
+    &.syntax--operator {
+      color: @pink;
+    }
+    &.syntax--control {
+      color: @pink;
+    }
+  }
+
+  &.syntax--source {
+    color: @green;
+  }
+
+  &.syntax--type.syntax--function {
+    color: @teal;
+
+  }
+  &.syntax--meta {
+
+    &.syntax--delimiter {
+
+      &.syntax--comma {
+        color: @white;
+      }
+      &.syntax--period {
+        color: @white;
+      }
+    }
+
+    &.syntax--brace {
+
+      &.syntax--curly {
+        color: @teal;
+      }
+
+      &.syntax--round {
+        color: @white;
+      }
+    }
+    &.syntax--function {
+      color: @white;
+    }
+  }
+  &.syntax--name.syntax--function {
+    color: @green;
+    font-style: italic;
+    &.syntax--entity {
+      color: @light-green;
+    }
+  }
+  &.syntax--punctuation {
+
+    &.syntax--definition {
+      &.syntax--string {
+        &.syntax--begin, &.syntax--end {
+          color: @white;
+        }
+      }
+      &.syntax--parameters {
+        color: @white;
+      }
+      &.syntax--arguments {
+        &.syntax--begin, &.syntax--end {
+          color: @white;
+        }
+      }
+    }
+
+    &.syntax--terminator {
+      color: @white;
+    }
+
+  }
+  &.syntax--string {
+
+    &.syntax--quoted {
+
+      &.syntax--single {
+        color: #FFF37C;
+      }
+      &.syntax--double {
+        color: rgba(255, 247, 169, 0.syntax--78);
+      }
+    }
+  }
+  &.syntax--storage.syntax--modifier {
+    color: #5f94d9;
+  }
+  &.syntax--support {
+
+      color: @green;
+
+    &.syntax--function {
+
+
+      &.syntax--dom {
+      color: #C49DFF;
+      font-style: italic;
+      }
+    }
+  }
+  &.syntax--variable.syntax--parameter.syntax--function {
+    color: @orange;
+  }
+
+  &.syntax--variable {
+    &.syntax--property {
+      &.syntax--other {
+        color: @dark-purple;
+      }
+    }
+  }
+
+  // Special
+
+  &.syntax--console {
+    font-family: monospace;
+    &.syntax--object {
+      color: rgba(224, 18, 18, 1);
+      font-weight: 600;
+      text-decoration: none;
+    }
+    &.syntax--support {
+      color: rgba(224, 142, 18, 1);
+    }
+  }
+  &.syntax--support.syntax--function.syntax--firebug {
+    color: @red;
+  }
+
+}

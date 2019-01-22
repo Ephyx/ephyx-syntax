@@ -1,0 +1,38 @@
+.syntax--json {
+  &.syntax--string{
+    &.syntax--quoted {
+      &.syntax--double {
+        color: @light-green;
+      }
+    }
+  }
+  &.syntax--language {
+    &.syntax--constant {
+      color: @green !important;
+    }
+  }
+  &.syntax--punctuation {
+    &.syntax--definition {
+      &.syntax--string {
+        &.syntax--begin, &.syntax--end {
+          color: @light-grey;
+        }
+      }
+      &.syntax--dictionary {
+        &.syntax--begin, &.syntax--end {
+          color: @pink !important;
+        }
+      }
+    }
+  }
+  &.syntax--separator {
+    &.syntax--dictionary {
+      &.syntax--key-value {
+        color: @yellow;
+      }
+      &.syntax--pair {
+        color: @red;
+      }
+    }
+  }
+}

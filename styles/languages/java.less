@@ -1,0 +1,98 @@
+
+.syntax--java {
+
+  // span.syntax--string.syntax--quoted.syntax--double.syntax--java
+
+  &.syntax--quoted {
+
+    &.syntax--double {
+      color: #5aeb0d;
+    }
+    &.syntax--single {
+      color: #60a73a;
+    }
+  }
+
+  &.syntax--punctuation {
+
+    // punctuation section class end java
+
+    &.syntax--definition {
+
+      &.syntax--method-parameters {
+
+        &.syntax--begin, &.syntax--end {
+          color: #e94df4;
+        }
+
+      }
+
+      &.syntax--string {
+
+        &.syntax--begin, &.syntax--end {
+          color: #e4e4e4;
+        }
+
+      }
+
+    }
+
+    &.syntax--terminator {
+      color: #ffffff;
+    }
+
+    &.syntax--section {
+
+      &.syntax--class {
+
+        // punctuation section class end java
+        &.syntax--begin, &.syntax--end {
+          color: #e4e4e4;
+        }
+      }
+
+      &.syntax--method {
+
+        &.syntax--begin, &.syntax--end {
+          color: #e4e4e4;
+        }
+
+      }
+
+    }
+
+  }
+
+  &.syntax--storage {
+
+      &.syntax--modifier {
+        color: #D3498D;
+      }
+  }
+
+  &.syntax--meta {
+
+    &.syntax--method {
+      color: #e46e2b;
+
+      &.syntax--identifier {
+        color: #799fb3;
+      }
+
+
+      &.syntax--body {
+        color: #74C6F0;
+      }
+
+    }
+
+  }
+
+  &.syntax--constant {
+
+    &.syntax--numeric {
+      color: #ff0000;
+    }
+
+  }
+}

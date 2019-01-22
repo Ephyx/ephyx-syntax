@@ -1,0 +1,16 @@
+﻿{
+  "name": "ephyx-syntax",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "description": "Ephyx Syntax for PHP, CSS, HTML, JSON, JS, JAVA, PYTHON and SQL languages – Based on slontech-syntax – ...",
+  "keywords": [
+    "ephyx"
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/atom/ephyx-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+// Specific PHP syntax
+.syntax--php {
+
+  &.syntax--function-call {
+    color: #61F9FF;
+  }
+
+  &.syntax--variable.syntax--other {
+    color: #B59FDB;
+  }
+  &.syntax--keyword {
+    &.syntax--control {
+      color: #E4479A;
+    }
+  }
+
+  &.syntax--punctuation {
+
+
+    &.syntax--section {
+
+      &.syntax--embedded {
+        &.syntax--begin, &.syntax--end {
+          color: #9556F2;
+          font-weight: 600;
+          font-style: italic;
+        }
+      }
+
+      &.syntax--scope {
+
+        &.syntax--begin, &.syntax--end {
+          color: #ffffff;
+        }
+      }
+    }
+
+
+    &.syntax--source {
+      color: #fff;
+    }
+    &.syntax--definition {
+
+      &.syntax--variable {
+        color: #9556F2;
+
+
+      }
+    }
+
+    &.syntax--terminator {
+
+      &.syntax--expression {
+          color: #ffffff;
+      }
+    }
+  }
+
+}
