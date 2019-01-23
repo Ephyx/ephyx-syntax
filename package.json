@@ -1,7 +1,5 @@
 {
   "name": "ephyx-syntax",
-  "theme": "syntax",
-  "version": "0.1.0",
   "description": "Ephyx Dark Syntax for PHP, CSS, HTML, JSON, JS, JAVA, PYTHON and SQL languages – Based on slontech-syntax – ...",
   "keywords": [
     "ephyx"
@@ -23,5 +21,7 @@
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
-  }
+  },
+  "theme": "syntax",
+  "version": "0.1.0"
 }
