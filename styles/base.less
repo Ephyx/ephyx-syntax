@@ -563,7 +563,7 @@ atom-text-editor([mini]) .syntax--scroll-view {
 .syntax--html {
 
   .syntax--string {
-    color: rgba(255, 251, 176, 0.syntax--71);;
+    color: rgba(255, 251, 176, 0.71);;
   }
 
 
@@ -601,7 +601,7 @@ atom-text-editor([mini]) .syntax--scroll-view {
 
     &.syntax--other {
       &.syntax--attribute-name {
-        color: rgba(255, 163, 20, 0.syntax--78);
+        color: rgba(255, 163, 20, 0.78);
       }
     }
 
@@ -746,13 +746,13 @@ atom-text-editor([mini]) .syntax--scroll-view {
 }
 
 
-atom-text-editor[mini], atom-text-editor(.syntax--mini) {
+atom-text-editor[mini], atom-text-editor(.mini) {
  .syntax--scroll-view {
     padding-left: 1px;
   }
 }
 
-@import "colors.syntax--less";
+@import "colors.less";
 
 // EDITOR BACKGROUND & FONT COLORS
 .syntax--atom-text-editor, atom-text-editor {
@@ -810,7 +810,7 @@ atom-text-editor[mini], atom-text-editor(.syntax--mini) {
         color: @gutter-text-highlight;
         font-weight: bold;
         border-left: 1px solid @orange;
-        border-bottom: dashed .syntax--1em rgba(255, 116, 0, 0.syntax--69);
+        border-bottom: dashed .1em rgba(255, 116, 0, 0.69);
 
       }
 
@@ -826,7 +826,7 @@ atom-text-editor[mini], atom-text-editor(.syntax--mini) {
       display: inline-block;
       visibility: hidden;
       opacity: 1;
-      padding: 0 .syntax--4em;
+      padding: 0 .4em;
       color: rgb(255, 255, 255);
     }
     .syntax--line-number .syntax--icon-right::before {
@@ -837,9 +837,9 @@ atom-text-editor[mini], atom-text-editor(.syntax--mini) {
       line-height: 1;
       -webkit-font-smoothing: antialiased;
       text-decoration: none;
-      font-size: 0.syntax--9em;
-      width: 0.syntax--9em;
-      height: 0.syntax--9em;
+      font-size: 0.9em;
+      width: 0.9em;
+      height: 0.9em;
       content: "\f0a3";
     }
 
@@ -866,8 +866,8 @@ atom-text-editor[mini], atom-text-editor(.syntax--mini) {
 
   // BACKGROUND OF SELECTED TEXT
   .syntax--selection .syntax--region {
-    // background-color: rgba(230,205,105,0.syntax--2);
-    // border: solid 1px rgba(230,205,105,0.syntax--5);
+    // background-color: rgba(230,205,105,0.2);
+    // border: solid 1px rgba(230,205,105,0.5);
     background-color: @selected;
     border: solid 1px @selected-border;
   }
@@ -882,10 +882,10 @@ atom-text-editor[mini], atom-text-editor(.syntax--mini) {
   // SELECTED LINE STYLE
   .syntax--line.syntax--cursor-line {
     background: @selected-line !important;
-    background: rgba(26, 255, 0, 0.syntax--1) !important;
+    background: rgba(26, 255, 0, 0.1) !important;
     // padding-left: 10px;
     // margin-left: -10px;
-    border-bottom: dashed .syntax--1em rgba(255, 116, 0, 0.syntax--69);
+    border-bottom: dashed .1em rgba(255, 116, 0, 0.69);
   }
 
   atom-pane.syntax--active {
@@ -896,6 +896,6 @@ atom-text-editor[mini], atom-text-editor(.syntax--mini) {
 
 .syntax--bracket-matcher .syntax--region {
   border-radius: 2px;
-  background-color: rgba(255, 0, 222, 0.syntax--53);
+  background-color: rgba(255, 0, 222, 0.53);
   border-bottom: 0px;
 }
