@@ -1,3 +1,6 @@
+## 0.5.0 -
+Color fix
+
 ## 0.4.0 -
 Code-background color fix
 
