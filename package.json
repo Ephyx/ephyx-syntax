@@ -1,17 +1,27 @@
-﻿{
+{
   "name": "ephyx-syntax",
   "theme": "syntax",
   "version": "0.1.0",
-  "description": "Ephyx Syntax for PHP, CSS, HTML, JSON, JS, JAVA, PYTHON and SQL languages – Based on slontech-syntax – ...",
+  "description": "Ephyx Dark Syntax for PHP, CSS, HTML, JSON, JS, JAVA, PYTHON and SQL languages – Based on slontech-syntax – ...",
   "keywords": [
     "ephyx"
     "syntax",
+    "jQuerry",
+    "php",
+    "html",
+    "css",
+    "less",
+    "JSON",
+    "javascript",
+    "coffee",
     "theme"
   ],
-  "repository": "https://github.com/atom/ephyx-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ephyx/ephyx-syntax.git"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   }
 }
- 
