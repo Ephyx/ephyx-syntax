@@ -34,6 +34,7 @@ atom-text-editor, atom-text-editor {
   .syntax--selection .syntax--region {
     background-color: @syntax-selection-color;
   }
+
 }
 
 atom-text-editor .syntax--search-results .syntax--marker .syntax--region,
@@ -755,13 +756,13 @@ atom-text-editor[mini], atom-text-editor(.mini) {
 @import "colors.less";
 
 // EDITOR BACKGROUND & FONT COLORS
-.syntax--atom-text-editor, atom-text-editor {
+atom-text-editor, atom-text-editor {
   background-color: @code-background;
   color: @code-font-color;
 }
 
 // MAIN CODE EDITOR STYLES
-.syntax--atom-text-editor, atom-text-editor {
+atom-text-editor, atom-text-editor {
 
   background-color: @code-background;
   color: @code-font-color;
@@ -898,4 +899,10 @@ atom-text-editor[mini], atom-text-editor(.mini) {
   border-radius: 2px;
   background-color: rgba(255, 0, 222, 0.53);
   border-bottom: 0px;
+}
+
+
+atom-text-editor::shadow .selection .region {
+  border: 1px solid white;
+  background-color: @very-dark-grey !important;
 }

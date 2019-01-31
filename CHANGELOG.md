@@ -1,3 +1,6 @@
+## 0.6.0 - 
+Highlight color fix
+
 ## 0.5.0 -
 Color fix
 
